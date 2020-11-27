@@ -60,7 +60,7 @@ public class TC_Bigbasket extends BaseClass
 		WebElement we = driver.findElement(By.xpath("//span[text()='My Basket']"));
 		JavascriptExecutor jse2 = (JavascriptExecutor)driver;
 		jse2.executeScript("arguments[0].scrollIntoView()", we);
-		//jsClick(we,5);		
+		
 		logger.info("Click on My basket");		
 		Thread.sleep(2000);
 		//System.out.println("Product Name in Basket is Right One?: "+bbp.verifyProductInMyBasket());
