@@ -55,7 +55,7 @@ public class TC_Bigbasket extends BaseClass
 		logger.info("Select 2 quantity of First item");
 		Thread.sleep(1000);
 		bbp.clickAddButtonFirstProduct();
-		//Thread.sleep(1000);
+		
 		logger.info("Click on Add to basket");
 		WebElement we = driver.findElement(By.xpath("//span[text()='My Basket']"));
 		JavascriptExecutor jse2 = (JavascriptExecutor)driver;
